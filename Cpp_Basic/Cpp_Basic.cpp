@@ -1,6 +1,8 @@
 ﻿#include <iostream>
 #include <iomanip>
 
+using namespace std;
+
 int main()
 {
     //列出算術運算子 + - * / % 的範例程式
@@ -101,40 +103,6 @@ int main()
 
     std::cout << "++" << number11 << " = " << number11 << std::endl;
     std::cout << "--" << number12 << " = " << number12 << std::endl;
-
-    //定義cout輸出格式 std::hex, std::oct, std::dec, setw 等指令的範例程式
-    int number13 = 0x1A2B3C4D;
-    int number14 = 01234567;
-    int number15 = 12345678;
-
-    //列出各種輸出格式
-    std::cout << "number13 = " << number13 << std::endl;
-    std::cout << "number14 = " << number14 << std::endl;
-    std::cout << "number15 = " << number15 << std::endl;
-
-    //列出std::hex輸出格式
-    std::cout << "number13 = " << std::hex << number13 << std::endl;
-    std::cout << "number14 = " << std::hex << number14 << std::endl;
-    std::cout << "number15 = " << std::hex << number15 << std::endl;
-
-    //列出std::oct輸出格式
-    std::cout << "number13 = " << std::oct << number13 << std::endl;
-    std::cout << "number14 = " << std::oct << number14 << std::endl;
-    std::cout << "number15 = " << std::oct << number15 << std::endl;
-
-    //列出std::dec輸出格式
-    std::cout << "number13 = " << std::dec << number13 << std::endl;
-    std::cout << "number14 = " << std::dec << number14 << std::endl;
-    std::cout << "number15 = " << std::dec << number15 << std::endl;
-
-    //列出setw輸出格式
-    std::cout << "number13 = " << std::setw(10) << number13 << std::endl;
-    std::cout << "number14 = " << std::setw(10) << number14 << std::endl;
-    std::cout << "number15 = " << std::setw(10) << number15 << std::endl;
-
-    //列出setfill輸出格式
-    std::cout << "number13 = " << std::setfill('-') << std::setw(10) << number13 << std::endl;
-    std::cout << "number14 = " << std::setfill('-') << std::setw(10) << number14;
 
     return 0;
 }
