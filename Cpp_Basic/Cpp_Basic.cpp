@@ -31,5 +31,23 @@ int main()
     bool bvalue2 = 0; //false
     cout << "bvalue1 is " << boolalpha << bvalue1 << endl;
     cout << "bvalue2 is " << noboolalpha << bvalue2 << endl;
+
+    //char
+    char cvalue1 = 'A';
+    char cvalue2 = 65;
+    cout << "the ascii code of " << cvalue1 << " is " << static_cast<int>(cvalue1) << endl;
+    cout << "the ascii code of " << cvalue2 << " is " << (int)cvalue2 << endl;
+
+    //auto
+    auto autovar1{ 12 };
+    auto autovar2{ 12.0 };
+    auto autovar3{ 'A' };
+    //auto autovar4; //compile error
+
+    //integer limit
+    cout << "Integer min: " << numeric_limits<int>::min() << endl;
+    cout << "Integer max: " << numeric_limits<int>::max() << endl;
+    cout << "Unsigned Integer min: " << numeric_limits<unsigned int>::min() << endl;
+    cout << "Unsigned Integer max: " << numeric_limits<unsigned int>::max() << endl;
     return 0;
 }
