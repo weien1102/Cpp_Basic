@@ -12,10 +12,14 @@ int main()
 	string str1 = "Hello";
 	auto str2 = "World";
 	string str3 = str1 + " " + str2 + "!";
+	string str3a = "\"Hello \\ World!\"";
+	auto str3b = R"("Hello \ world!")";
 
 	cout << "str1:" << str1 << endl;
 	cout << "str2:" << str2 << endl;
 	cout << "str3:" << str3 << endl;
+	cout << "str3a:" << str3a << endl;
+	cout << "str3b:" << str3b << endl;
 
 	cout << "str3 capacity = " << str3.capacity() << endl;
 	cout << "str3 length(size) = " << str3.length() << endl;
