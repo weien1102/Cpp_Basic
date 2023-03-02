@@ -1,4 +1,5 @@
 ﻿#include <iostream>
+#include <iomanip>
 #include <string>
 using namespace std;
 
@@ -38,4 +39,29 @@ int main()
     cout << "str4 = " << str4 << endl;
     str4.push_back('!');
     cout << "str4 = " << str4 << endl;
+
+    cout << "str4.find(str2) = " << str4.find(str2) << endl;
+    cout << "str4.find(\"World\", 3) = " << str4.find("World", 3) << endl;
+    cout << "str4.find(\"World\", 7) = " << str4.find("World", 7) << endl;
+
+    str4.insert(6, "C++ ");
+    cout << "str4 = " << str4 << endl;
+    str4.erase(str4.begin() + 6, str4.end() - 6);
+    cout << "str4 = " << str4 << endl;
+    str4.clear();
+    cout << "str4 = " << str4 << endl;
+
+    //字串內容轉換成數值
+    string str5 = "1234567890";
+    int number1 = stoi(str5);
+    cout << "number1 = " << number1 << endl;
+
+    string str6 = "1234.56789";
+    double number2 = stod(str6);
+    cout << "number2 = " << fixed << setprecision(3) <<  number2 << endl;
+
+    string str7 = to_string(number1);
+    string str8 = to_string(number2);
+    cout << "str7 = " << str7 << endl;
+    cout << "str8 = " << str8 << endl;
 }
