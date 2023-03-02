@@ -37,7 +37,7 @@ int main()
 	cout << "a0 ^ a1 = " << (a0 ^ a1) << endl;
 	cout << "!a0 = " << (!a0) << endl;
 
-	//bitwise shift
+	//bitwise shift, &, |, ~
 	cout << "number1 (decimal) = " << dec << number1 << endl;
 	cout << "number1 (binary) = " << bitset<8>(number1) << endl;
 	int number1a = (number1 << 1);
