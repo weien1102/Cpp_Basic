@@ -13,7 +13,6 @@ bool isPrime(int p) {
 int main()
 {
 	//列出小於等於n的所有質數
-
 	int n;
 	cout << "輸入一個數值n: ";
 	cin >> n;
