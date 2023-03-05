@@ -33,8 +33,4 @@ int main()
 		i++; 
 		} while (i <= n);
 	cout << "使用do-while loop: " << "1至" << n << "的總和= " << sum << endl;
-
-	// 輸// C++// if-else
-
-	// 給定一個分數，輸出對應的等第
 }
