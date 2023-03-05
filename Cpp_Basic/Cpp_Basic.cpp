@@ -14,10 +14,21 @@ int main()
 {
 	//列出小於等於n的所有質數
 	int n;
+	int primes[100] = { 0 };
 	cout << "輸入一個數值n: ";
 	cin >> n;
-	cout << "小於等於" << n << "的質數有: " << endl;
+
+	int j = 0;
 	for (int i = 1; i <= n; i++) {
-		if (isPrime(i)) cout << i << endl;
+		if (isPrime(i)) {
+			primes[j] = i;
+			j++;
+		}
+	}
+
+	// foreach loop
+	cout << "小於等於" << n << "的質數有: " << endl;
+	for (int p : primes) {
+		if (p != 0) cout << p << endl;
 	}
 }
