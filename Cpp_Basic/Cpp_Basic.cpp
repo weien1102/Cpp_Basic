@@ -27,7 +27,7 @@ int main()
 
 	//if (score >= 60) isPass = "及格";
 	//else isPass = "不及格";
-	isPass = score >= 60 ? "及格" : "不及格";
+	isPass = (score >= 60) ? "及格" : "不及格";
 
 	cout << "分數為: " << score << endl;
 	cout << "等第為: " << grade << endl;
