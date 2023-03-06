@@ -43,7 +43,7 @@ string convertScore(int s) {
 }
 
 void outputResult(int score) {
-	string grade,isPass;
+	string grade, isPass;
 	grade = convertScore(score);
 	//if (score >= 60) isPass = "及格";
 	//else isPass = "不及格";
@@ -66,4 +66,3 @@ int main()
 
 	outputResult(score);
 }
-
