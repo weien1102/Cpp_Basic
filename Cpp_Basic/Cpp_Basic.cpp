@@ -13,7 +13,6 @@ int main()
     // for loop
     for (int i = 1; i <= n; i++) {
         sum += i;
-        if (i == 3) break;
     }
     cout << "使用for loop: " << "1至" << n << "的總和為= " << sum << endl;
 
