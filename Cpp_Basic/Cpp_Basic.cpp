@@ -47,10 +47,10 @@ int main()
 {
 	//Complex c;
 	//c.display();
-	Complex c1(1, 1);
-	c1.display();
-	Complex c2(1, 1);
-	c2.display();
+	//Complex c1(1, 1);
+	//c1.display();
+	//Complex c2(1, 1);
+	//c2.display();
 
 	//Complex c3 = c1 + c2;
 	//c3.display();
@@ -58,6 +58,6 @@ int main()
 	//Complex c4 = c1 - c2;
 	//c4.display();
 
-	Complex c5 = c1 * c2;
-	c5.display();
+	//Complex c5 = c1 * c2;
+	//c5.display();
 }
