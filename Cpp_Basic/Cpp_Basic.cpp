@@ -60,4 +60,31 @@ int main()
 
 	//Complex c5 = c1 * c2;
 	//c5.display();
+
+	int n;
+	cin >> n;
+
+	Complex c[10];
+	for (int i = 0; i < n; i++) {
+		char oper;
+		int ar, ai, br, bi;
+		cin >> oper >> ar >> ai >> br >> bi;
+		Complex a(ar, ai);
+		Complex b(br, bi);
+
+		switch (oper) {
+			case '+':
+				c[i] = a + b;
+				break;
+			case '-':
+				c[i] = a - b;
+				break;
+			case '*':
+				c[i] = a * b;
+				break;
+		}
+	}
+	for (int i = 0; i < n; i++) {
+		c[i].display();
+	}
 }
