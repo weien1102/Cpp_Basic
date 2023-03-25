@@ -27,12 +27,13 @@ int main()
 	cout << endl;
 
 	const int N = 5;
-	int a[N] = { 0, 1, 2, 3, 4 };
+	int a[N] = { 0, 10, 20, 30, 40 };
 	int* ptr = nullptr;
 	ptr = a;
 
 	cout << "a[3] = " << a[3] << endl;
 	cout << "*(ptr+3) = " << *(ptr + 3) << endl;
+	cout << "*ptr + 3 = " << *ptr + 3 << endl;
 	cout << endl;
 	//cout << "*(ptr+5) = " << *(ptr + 5) << endl; // 超出陣列範圍
 
