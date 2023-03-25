@@ -4,10 +4,10 @@ using namespace std;
 int main()
 {
 	int var = 20;
-	//int* ip;
-	//int* ip = 0;
-	//int* ip = NULL;
-	int* ip = nullptr;
+	//int* ip; // 不建議使用
+	//int* ip = 0; // C++98之前的空指標定義，不建議使用
+	//int* ip = NULL; // C++98之前的空指標定義，不建議使用
+	int* ip = nullptr; // C++11之後的空指標定義
 	ip = &var; // & 取址運算子
 
 	cout << "var = " << var << endl;
