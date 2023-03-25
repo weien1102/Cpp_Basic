@@ -36,7 +36,6 @@ int main()
 	cout << "*ptr + 3 = " << *ptr + 3 << endl;
 	cout << "*ptr++ = " << *ptr++ << endl;
 	cout << "*ptr = " << *ptr << endl;
-	cout << "*(ptr++) = " << *(ptr++) << endl;
 	cout << endl;
 	//cout << "*(ptr+5) = " << *(ptr + 5) << endl; // 超出陣列範圍
 
