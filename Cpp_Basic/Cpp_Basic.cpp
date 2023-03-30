@@ -11,7 +11,9 @@ void swap(int& x, int& y) {
 int main()
 {
     int i = 5;
+    double d;
     int& i_ref = i;
+    int& d_ref = d;
 
     cout << "value of i = " << i << endl;
     cout << "value of i reference = " << i_ref << endl;
