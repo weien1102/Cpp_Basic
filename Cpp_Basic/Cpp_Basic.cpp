@@ -12,6 +12,7 @@ int main()
 {
     int i = 5;
     double d;
+
     int& i_ref = i;
     int& d_ref = d;
 
