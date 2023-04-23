@@ -12,6 +12,18 @@ int main()
 	cout << "rect2面積: " << rect2.area() << endl;
 	cout << endl;
 
+	Rectangle* rect3 = new Rectangle(5, 6);
+	cout << "rect3面積: " << rect3->area() << endl;
+	delete rect3;
+
+	Rectangle* rect4 = nullptr;
+	rect4 = &rect2;
+	cout << "rect4面積: " << rect4->area() << endl;
+	cout << endl;
+
+	delete rect4;
+	cout << "rect2面積: " << rect2.area() << endl;
+
 	Circle cir1{ 10.0 };
 	cout << "圓半徑: " << cir1.getRadius() << endl;
 	cout << "圓周長: " << cir1.circum() << endl;
