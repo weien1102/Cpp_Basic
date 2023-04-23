@@ -5,7 +5,7 @@ class Cylinder
 	Circle base;
 	double height;
 public:
-	Cylinder(double r, double h);
+	Cylinder(double, double);
 	double volume();
 	double area();
 	double getRadius();
