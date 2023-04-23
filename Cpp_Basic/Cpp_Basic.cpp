@@ -21,8 +21,8 @@ int main()
 	cout << "rect4面積: " << rect4->area() << endl;
 	cout << endl;
 
-	delete rect4;
-	cout << "rect2面積: " << rect2.area() << endl;
+	//delete rect4;
+	//cout << "rect2面積: " << rect2.area() << endl;
 
 	Circle cir1{ 10.0 };
 	cout << "圓半徑: " << cir1.getRadius() << endl;
