@@ -19,7 +19,9 @@ int main()
 	cout << endl;
 
 	Cylinder cyl1{ 10.0, 20.0 };
+	cout << "圓柱體切片半徑: " << cyl1.getRadius() << endl;
 	cout << "圓柱體切片面積" << cyl1.area() << endl;
+	cout << "圓柱體高度: " << cyl1.getHeight() << endl;
 	cout << "圓柱體體積" << cyl1.volume() << endl;
 	cout << endl;
 
