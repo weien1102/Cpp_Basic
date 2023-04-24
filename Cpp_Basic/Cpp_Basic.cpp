@@ -1,6 +1,7 @@
 ﻿#include <iostream>
 #include "Rectangle.h"
 #include "Circle.h"
+#include "Cylinder.h"
 using namespace std;
 
 int main() {
@@ -30,5 +31,10 @@ int main() {
 	cout << "cir2面積: " << cir2.area() << endl;
 	cout << endl;
 
+	Cylinder cyl1{ 5, 10 };
+	cout << "cyl1切面圓半徑: " << cyl1.getRadius() << endl;
+	cout << "cyl1圓柱體高: " << cyl1.getHeight() << endl;
+	cout << "cyl1切面圓面積: " << cyl1.area() << endl;
+	cout << "cyl1圓柱體體積: " << cyl1.volume() << endl;
 	return 0;
 }
