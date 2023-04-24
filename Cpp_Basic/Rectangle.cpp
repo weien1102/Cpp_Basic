@@ -13,3 +13,11 @@ Rectangle::Rectangle() {
 int Rectangle::area() {
 	return width * height;
 }
+
+int Rectangle::getHeight() {
+	return height;
+}
+
+int Rectangle::getWidth() {
+	return width;
+}

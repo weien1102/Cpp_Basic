@@ -6,4 +6,6 @@ public:
 	Rectangle();
 	Rectangle(int, int);
 	int area();	
+	int getHeight();
+	int getWidth();
 };
